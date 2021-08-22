@@ -17,7 +17,7 @@ class MeterPerSecond : JavaPlugin(),Listener {
     val move_block = HashMap<Player, Float>()
 
     override fun onEnable() {
-        println("${ChatColor.WHITE}[GetMS] plugin enabled")
+        println("${ChatColor.WHITE}[MeterPerSecond] plugin enabled")
         Bukkit.getPluginManager().registerEvents(this, this)
         for(players in Bukkit.getOnlinePlayers()) {
             move_block[players] = 0f

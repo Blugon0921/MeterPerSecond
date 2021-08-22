@@ -1,0 +1,6 @@
+name: $project.name
+version: $project.version
+main: io.github.blugon0921.meterpersecond.MeterPerSecond
+api-version: 1.17
+description: MeterPerSecond
+author: Blugon
